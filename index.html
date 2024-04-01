@@ -25,9 +25,9 @@
                 <nav>
                     <ul>
                      
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#home">Home</a></li>
                         <li><a href="menu.html">Menu</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#contact-us">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -82,99 +82,45 @@
                         </tbody>
                     </table>
                 </section>
-                </section>
-                   
-            </section>
+                
+  <div class="noodle-line"></div>
+   
+            <section id="contact-us">
+                
+                <h4>Contact Us</h4>
+            
+                    <p>Ready to plan an event? Have questions about ingredients or custom orders? Reach out to us through our contact form and we will get back to you as soon as we can! Required inputs are marked with a *</p>
+               
+            <section>
 
-            <div class="noodle-line"></div>
-
-            <style>
-                .contact-container {
-                    display: flex;
-                }
-            
-                .contact-container .left {
-                    flex: 1;
-                    padding-right: 20px; /* Add spacing between left and right sections */
-                }
-            
-                .contact-container .right {
-                    flex: 1;
-                }
-            
-                /* Adjustments to the form layout */
-                .contact-container form {
-                    text-align: left; /* Align form elements to the left */
-                }
-            
-                .contact-container form table {
-                    width: 100%; /* Ensure table occupies full width */
-                }
-            
-                .contact-container form table td {
-                    padding: 5px; /* Add padding to table cells */
-                }
-            
-                .contact-container form table td label {
-                    display: inline-block;
-                    width: 120px; /* Adjust label width as needed */
-                    text-align: right;
-                    margin-right: 10px;
-                }
-            
-                .contact-container form table td input[type="text"],
-                .contact-container form table td input[type="email"],
-                .contact-container form table td input[type="tel"],
-                .contact-container form table td textarea {
-                    width: calc(100% - 130px); /* Adjust input width to fill remaining space */
-                }
-            
-                .contact-container form table td:last-child {
-                    text-align: center; /* Align submit button to the center */
-                }
-            </style>
-            
-            <div class="contact-container">
-                <div class="left">
-                    <p>Ready to plan an event? Have questions about ingredients or custom orders? Reach out to us through our contact form and we will get back to you as soon as we can! Required inputs are marked with a <span class="required">*</span></p>
-                </div>
-                <div class="right">
                     <form action="https://wp.zybooks.com/form-viewer.php" method="post">
-                        <table>
-                            <tr>
-                                <td><label for="my-name">Full Name<span class="required">*</span>:</label></td>
-                                <td><input type="text" id="my-name" name="my-name" required></td>
-                            </tr>
-                            <tr>
-                                <td><label for="my-email">Email Address<span class="required">*</span>:</label></td>
-                                <td><input type="email" id="my-email" name="my-email" required></td>
-                            </tr>
-                            <tr>
-                                <td><label for="my-phone">Phone Number:</label></td>
-                                <td><input type="tel" id="my-phone" name="my-phone"></td>
-                            </tr>
-                            <tr>
-                                <td><label for="my-comments">Comments<span class="required">*</span>:</label></td>
-                                <td><textarea id="my-comments" name="my-comments" rows="4" required></textarea></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><input type="submit" value="Submit" id="my-submit" name="my-submit"></td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
-            </div>
-           
+                        
+                                <label for="my-name">Name<span class="required">*</span>:</label>
+                                <input type="text" id="my-name" name="my-name" required>
+                            
 
-            </section>
-            </section>
+                                <label for="my-email">Email Address<span class="required">*</span>:</label>
+                                <input type="email" id="my-email" name="my-email" required>
+                          
+                                <label for="my-phone">Phone Number:</label>
+                                <input type="tel" id="my-phone" name="my-phone">
+                           
+                                <label for="my-comments">Comments<span class="required">*</span>:</label>
+                                <textarea id="my-comments" name="my-comments" rows="4" required></textarea>
+                        
+                                <td colspan="2"><span><input type="submit" name="my-submit" id="mysubmit" value="submit form"></span>
+                                   
+                    </form>
+            
+    
             <!-- BACK TO TOP BUTTON HERE -->
             <a href="#top" class="btt">Back to Top of Page</a>
-        </main>
-
+        
+        </section>
+</main>
         <footer>
             <p>Copyright &copy; 2023 - Bistro 76</p>
             <small>This site is for educational purposes only</small>
         </footer>
-    </body>
+        </body>
 </html>
